@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "title": "Daytime Course in JavaScript (Beginners)",
+    "duration": 5,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Daytime Course in JavaScript.",
+    "date": "2024-09-05",
+    "remote": false,
+    "rating": 3.5,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 2,
+    "title": "Evening Course in JavaScript (Beginners)",
+    "duration": 8,
+    "img": "content/img/evening-course.jpg",
+    "alt": "Evening Course in JavaScript.",
+    "date": "2024-09-01",
+    "remote": true,
+    "rating": 4,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 3,
+    "title": "Daytime Course in HTML (Beginners)",
+    "duration": 3,
+    "img": "content/img/daytime-course-2.jpg",
+    "alt": "Daytime Course in HTML.",
+    "date": "2024-09-10",
+    "remote": true,
+    "rating": 4.7,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 4,
+    "title": "Evening Course in HTML (Beginners)",
+    "duration": 4,
+    "img": "content/img/evening-course-2.jpg",
+    "alt": "Evening Course in HTML.",
+    "date": "2024-09-15",
+    "remote": false,
+    "rating": 4.2,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 5,
+    "title": "Daytime Course in CSS (Beginners)",
+    "duration": 6,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Daytime Course in CSS.",
+    "date": "2024-09-20",
+    "remote": true,
+    "rating": 3.9,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 6,
+    "title": "Evening Course in CSS (Beginners)",
+    "duration": 7,
+    "img": "content/img/evening-course.jpg",
+    "alt": "Evening Course in CSS.",
+    "date": "2024-09-25",
+    "remote": false,
+    "rating": 4.5,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 7,
+    "title": "Daytime Course in CSS (Advanced)",
+    "duration": 9,
+    "img": "content/img/daytime-course-2.jpg",
+    "alt": "Course 7 Image",
+    "date": "2024-09-30",
+    "remote": true,
+    "rating": 4.8,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 8,
+    "title": "Evening Course in CSS (Advanced)",
+    "duration": 5,
+    "img": "content/img/evening-course-2.jpg",
+    "alt": "Course 8 Image",
+    "date": "2024-10-05",
+    "remote": false,
+    "rating": 4.3,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 9,
+    "title": "Daytime Course in JavaScript (Advanced)",
+    "duration": 4,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Course 9 Image",
+    "date": "2024-10-10",
+    "remote": true,
+    "rating": 3.7
+  },
+  {
+    "id": 10,
+    "title": "Evening Course in JavaScript (Advanced)",
+    "duration": 8,
+    "img": "content/img/evening-course.jpg",
+    "alt": "Course 10 Image",
+    "date": "2024-10-15",
+    "remote": false,
+    "rating": 4.5,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 11,
+    "title": "Daytime Course in HTML (Advanced)",
+    "duration": 5,
+    "img": "content/img/daytime-course-2.jpg",
+    "alt": "Course 11 Image",
+    "date": "2024-10-20",
+    "remote": true,
+    "rating": 3.8,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 12,
+    "title": "Evening Course in HTML (Advanced)",
+    "duration": 7,
+    "img": "content/img/evening-course-2.jpg",
+    "alt": "Course 12 Image",
+    "date": "2024-10-25",
+    "remote": false,
+    "rating": 4.6,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 13,
+    "title": "Kurs 13",
+    "duration": 6,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Course 13 Image",
+    "date": "2024-10-30",
+    "remote": true,
+    "rating": 4.2,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 14,
+    "title": "Kurs 14",
+    "duration": 3,
+    "img": "content/img/evening-course.jpg",
+    "alt": "Course 14 Image",
+    "date": "2024-11-01",
+    "remote": false,
+    "rating": 3.9,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 15,
+    "title": "Kurs 15",
+    "duration": 4,
+    "img": "content/img/daytime-course-2.jpg",
+    "alt": "Course 15 Image",
+    "date": "2024-11-05",
+    "remote": true,
+    "rating": 4.1,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 16,
+    "title": "Kurs 16",
+    "duration": 5,
+    "img": "content/img/evening-course-2.jpg",
+    "alt": "Course 16 Image",
+    "date": "2024-11-10",
+    "remote": false,
+    "rating": 3.7,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 17,
+    "title": "Kurs 17",
+    "duration": 3,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Course 17 Image",
+    "date": "2024-11-15",
+    "remote": true,
+    "rating": 4.4,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 18,
+    "title": "Kurs 18",
+    "duration": 6,
+    "img": "content/img/evening-course.jpg",
+    "alt": "Course 18 Image",
+    "date": "2024-11-20",
+    "remote": false,
+    "rating": 4.7,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 19,
+    "title": "Kurs 19",
+    "duration": 5,
+    "img": "content/img/daytime-course-2.jpg",
+    "alt": "Course 19 Image",
+    "date": "2024-11-25",
+    "remote": true,
+    "rating": 3.6,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 20,
+    "title": "Kurs 20",
+    "duration": 7,
+    "img": "content/img/evening-course-2.jpg",
+    "alt": "Course 20 Image",
+    "date": "2024-11-30",
+    "remote": false,
+    "rating": 4.3,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "id": 21,
+    "title": "Kurs 21",
+    "duration": 8,
+    "img": "content/img/daytime-course.jpg",
+    "alt": "Course 21 Image",
+    "date": "2024-12-05",
+    "remote": true,
+    "rating": 3.9,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }
+]
