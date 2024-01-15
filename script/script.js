@@ -1,12 +1,10 @@
-import courses from './data.js';
-
 document.addEventListener('DOMContentLoaded', (event) => {
   // GET
   async function fetchData(url) {
     try {
       const response = await fetch(url);
       const data = await response.json();
-      processData(data);
+      processData(data.courses);
     } catch (error) {
       console.error('Error:', error);
     }
