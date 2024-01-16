@@ -86,7 +86,7 @@ body {
   margin: 0 0 0.3125rem 0;
 }
 
-.button, .register-form input[type=submit], .signin-form input[type=submit] {
+.button, .register-form input[type=submit], .signin-form input[type=submit], .add-course-button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -96,7 +96,7 @@ body {
   margin: 0.3125rem 0.3125rem;
   transition: background-color 0.2s ease;
 }
-.button:hover, .register-form input[type=submit]:hover, .signin-form input[type=submit]:hover {
+.button:hover, .register-form input[type=submit]:hover, .signin-form input[type=submit]:hover, .add-course-button:hover {
   background-color: #0056b3;
 }
 
@@ -170,7 +170,7 @@ body {
   margin-bottom: 10px;
 }
 
-.admin-modal .save-button, .admin-modal .delete-button {
+.save-button, .delete-button {
   background-color: #007bff;
   color: #fff;
   border: none;

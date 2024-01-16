@@ -196,6 +196,7 @@ const openAddCourseModal = () => {
 
   const form = document.createElement('form');
   [
+    'id',
     'title',
     'duration',
     'img',
@@ -290,7 +291,18 @@ const updateCourse = async (courseId, form) => {
 
 const addCourse = async (form) => {
   const formData = new FormData(form);
-  const data = Object.fromEntries(formData);
+  let data = Object.fromEntries(formData);
+
+  // Convert 'id', 'duration', and 'rating' to a number
+  ['id', 'duration', 'rating'].forEach((key) => {
+    if (data[key]) {
+      data[key] = Number(data[key]);
+    }
+  });
+
+  // Ensure 'remote' is always a boolean
+  data.remote = form.remote.checked;
+
   const httpClient = new HttpClient('http://localhost:3000/courses');
   await httpClient.add(data);
 
