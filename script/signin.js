@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const form = document.querySelector('form');
   form.classList.add('signin-form');
 
-  // FORM FIELDS
   const formFields = [
     { type: 'email', id: 'email', name: 'email', labelText: 'Email:' },
     {
@@ -13,7 +12,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     },
   ];
 
-  // FORM ACTION
   formFields.forEach((field) => {
     const label = document.createElement('label');
     label.setAttribute('for', field.id);
@@ -40,11 +38,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    // GET FROM LOCALSTORAGE
     const storedData = localStorage.getItem('formData');
     const data = JSON.parse(storedData);
 
-    // VALIDATE FROM STORED DATA
     if (
       document.querySelector('#email').value === data.email &&
       document.querySelector('#password').value === data.password

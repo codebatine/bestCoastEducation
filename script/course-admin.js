@@ -32,7 +32,7 @@ class HttpClient {
         throw new Error(`${response.status} ${response.statusText}`);
       }
 
-      const responseData = await response.json(); // Changed variable name here
+      const responseData = await response.json();
       return responseData;
     } catch (error) {
       throw new Error(`Error occurred in add method: ${error}`);
@@ -48,6 +48,8 @@ class HttpClient {
       if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
       }
+      const data = await response.json();
+      return data;
     } catch (error) {
       throw new Error(`Error occurred in delete method: ${error}`);
     }
@@ -75,6 +77,8 @@ class HttpClient {
     }
   }
 }
+
+const httpClient = new HttpClient('http://localhost:3000/courses');
 
 let courses = [];
 
@@ -147,20 +151,15 @@ const openAdminModal = (e) => {
 
     label.appendChild(input);
     form.appendChild(label);
-
-    const saveButton = document.createElement('button');
-    saveButton.textContent = 'Save';
-    saveButton.className = 'save-button';
-    saveButton.addEventListener('click', (e) => {
-      e.preventDefault();
-      updateCourse(courseId, form);
-    });
   });
 
   const saveButton = document.createElement('button');
   saveButton.textContent = 'Save';
   saveButton.className = 'save-button';
-  saveButton.addEventListener('click', () => updateCourse(courseId, form));
+  saveButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    updateCourse(courseId, form);
+  });
 
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Delete';
@@ -176,8 +175,6 @@ const openAdminModal = (e) => {
 
   modal.style.display = 'block';
 };
-
-/// NEW COURSE
 
 const openAddCourseModal = () => {
   const modal = document.createElement('div');
@@ -232,7 +229,7 @@ const openAddCourseModal = () => {
 
   const addButton = document.createElement('button');
   addButton.textContent = 'Add';
-  addButton.className = 'add-button';
+  addButton.className = 'add-course-button';
   addButton.addEventListener('click', (e) => {
     e.preventDefault();
     addCourse(form);
@@ -246,7 +243,6 @@ const openAddCourseModal = () => {
 
   modal.style.display = 'block';
 };
-/////
 
 const deleteCourse = async (courseId) => {
   console.log(`Deleting course with ID: ${courseId}`);
@@ -260,27 +256,20 @@ const deleteCourse = async (courseId) => {
 const updateCourse = async (courseId, form) => {
   console.log(`Updating course with ID: ${courseId}`);
 
-  // Get the current course data
-  const currentCourse = courses.find((course) => course.id === courseId);
-  console.log(`Current course data:`, currentCourse); // Log the current course data
+  const formData = new FormData(form);
+  let updatedCourse = Object.fromEntries(formData);
 
-  // Create the updated course object from the current course data
-  const updatedCourse = { ...currentCourse };
-
-  // Update the updatedCourse object with the values from the form
-  Array.from(form.elements).forEach((element) => {
-    if (element.name) {
-      if (element.type === 'checkbox') {
-        updatedCourse[element.name] = element.checked;
-      } else if (element.type === 'number') {
-        updatedCourse[element.name] = parseFloat(element.value);
-      } else {
-        updatedCourse[element.name] = element.value;
-      }
+  ['id', 'duration', 'rating'].forEach((key) => {
+    if (updatedCourse[key]) {
+      updatedCourse[key] = Number(updatedCourse[key]);
     }
   });
 
-  console.log(`Updated course data:`, updatedCourse); // Log the updated course data
+  if (updatedCourse.remote) {
+    updatedCourse.remote = updatedCourse.remote === 'true';
+  }
+
+  console.log(`Updated course data:`, updatedCourse);
 
   const httpClient = new HttpClient('http://localhost:3000/courses');
   await httpClient.update(courseId, updatedCourse);
@@ -293,15 +282,15 @@ const addCourse = async (form) => {
   const formData = new FormData(form);
   let data = Object.fromEntries(formData);
 
-  // Convert 'id', 'duration', and 'rating' to a number
   ['id', 'duration', 'rating'].forEach((key) => {
     if (data[key]) {
       data[key] = Number(data[key]);
     }
   });
 
-  // Ensure 'remote' is always a boolean
-  data.remote = form.remote.checked;
+  if (data.remote) {
+    data.remote = data.remote === 'true';
+  }
 
   const httpClient = new HttpClient('http://localhost:3000/courses');
   await httpClient.add(data);

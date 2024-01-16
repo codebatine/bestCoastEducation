@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  // GET
   async function fetchData(url) {
     try {
       const response = await fetch(url);
@@ -11,30 +10,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 
   function processData(data) {
-    // PROCESS DATA
     data.forEach(createCourseCard);
   }
 
-  // CALL fetchData ON PAGE LOAD
   fetchData('/data.json');
 
   function createCourseCard(course) {
     const courseCard = document.createElement('div');
     courseCard.className = 'course-card';
 
-    // MOUSEOVER
     courseCard.addEventListener('mouseover', () => {
-      // CCHANGE BG COLOR
       courseCard.style.backgroundColor = '#f1f1f1';
     });
 
-    // MOUSEOVER
     courseCard.addEventListener('mouseout', () => {
-      // NO BG COLOR
       courseCard.style.backgroundColor = '';
     });
 
-    // MAIN ACTION
     const image = document.createElement('img');
     image.src = course.img;
     image.alt = course.alt;
@@ -100,19 +92,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
     bookButton.className = 'button';
     bookButton.textContent = 'Book Course';
     bookButton.addEventListener('click', () => {
-      // CONSOLE LOG CONFIRMATION FOR BOOKING COURSE CLICK
-      console.log('Booking button clicked');
+      alert('Booking button clicked.');
     });
     courseCard.appendChild(bookButton);
 
     document.querySelector('.courses-container').appendChild(courseCard);
 
-    // X <SPAN> CLOSE
     document.querySelector('.close').addEventListener('click', () => {
       document.querySelector('#course-modal').style.display = 'none';
     });
 
-    // CLICK OUTSIDE TO CLOSE
     window.addEventListener('click', (event) => {
       const modal = document.querySelector('#course-modal');
       if (event.target == modal) {

@@ -1,4 +1,5 @@
 body, .header, .footer {
+  font-family: "Lato", "PT Sans", "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -9,44 +10,135 @@ body {
   min-height: 100vh;
 }
 
-.header, .footer {
-  padding: 1.25rem 0;
-}
-
 .header h1, .header a, .menu li a {
+  font-family: "PT Sans", sans-serif;
   margin: 0;
   text-decoration: none;
 }
 
-.first-page-presentation, .courses-container {
-  display: flex;
-  justify-content: center;
+h2 {
+  margin-bottom: 2.5rem;
 }
 
-.first-page-presentation {
+.courses-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.courses-title h2 {
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.menu {
-  margin-top: 1.25rem;
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  height: 3.75rem;
+  padding: 1.25rem 0;
 }
 
-.menu ul {
-  list-style-type: none;
-  padding: 0;
+.header ul {
   margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-.menu li {
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover, .header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
   display: inline-block;
-  margin-right: 0.625rem;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
 
-.menu li a {
-  color: #000;
-  padding: 0.3125rem 0.625rem;
-  border-radius: 0.3125rem;
-  background-color: #ccc;
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
 }
 
 .footer {
@@ -62,8 +154,8 @@ body {
 }
 
 .course-card {
+  font-family: "Lato", sans-serif;
   border: 0.0625rem solid #ccc;
-  border-radius: 0.3125rem;
   padding: 0.625rem;
   margin-bottom: 1.25rem;
   flex-basis: 100%;
@@ -71,14 +163,13 @@ body {
 }
 .course-card:hover {
   border-color: #999;
-  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.25);
 }
 
 .course-card img {
   width: 100%;
   max-height: 12.5rem;
   object-fit: cover;
-  border-radius: 0.3125rem;
   margin-bottom: 0.625rem;
 }
 
@@ -86,15 +177,19 @@ body {
   margin: 0 0 0.3125rem 0;
 }
 
+form {
+  margin-top: 8rem;
+}
+
 .button, .register-form input[type=submit], .signin-form input[type=submit], .add-course-button {
   background-color: #007bff;
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
-  border-radius: 0.3125rem;
   cursor: pointer;
-  margin: 0.3125rem 0.3125rem;
+  margin: 0.3125rem auto;
   transition: background-color 0.2s ease;
+  width: 40%;
 }
 .button:hover, .register-form input[type=submit]:hover, .signin-form input[type=submit]:hover, .add-course-button:hover {
   background-color: #0056b3;
@@ -118,7 +213,6 @@ body {
   padding: 1.25rem;
   border: 0.0625rem solid #888;
   width: 80%;
-  border-radius: 0.3125rem;
   text-align: left;
 }
 
@@ -154,7 +248,6 @@ body {
   padding: 1.25rem;
   border: 0.0625rem solid #888;
   width: 80%;
-  border-radius: 0.3125rem;
   text-align: left;
 }
 
@@ -175,7 +268,6 @@ body {
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
-  border-radius: 0.3125rem;
   cursor: pointer;
   margin: 0.3125rem 0.3125rem;
   transition: background-color 0.2s ease;
@@ -209,12 +301,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 50vw;
-  margin-top: 5rem;
   padding: 1.25rem;
   background-color: #f1f1f1;
-  border-radius: 0.3125rem;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -222,11 +312,26 @@ body {
 .register-form input[type=text], .register-form input[type=email], .register-form input[type=tel], .register-form input[type=password], .signin-form input[type=text], .signin-form input[type=email], .signin-form input[type=tel], .signin-form input[type=password] {
   padding: 0.625rem;
   border: 0.0625rem solid #ccc;
-  border-radius: 0.3125rem;
   margin-bottom: 0.9375rem;
   font-size: 1rem;
 }
 
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .course-card {
     flex-basis: 46%;

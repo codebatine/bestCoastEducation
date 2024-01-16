@@ -1,4 +1,3 @@
-// FORM FIELDS
 const formFields = [
   { type: 'text', id: 'name', name: 'name', labelText: 'Name:' },
   {
@@ -17,7 +16,6 @@ const formFields = [
   },
 ];
 
-// FORM ACTION
 document.addEventListener('DOMContentLoaded', (event) => {
   const form = document.querySelector('form');
   form.classList.add('register-form');
@@ -56,25 +54,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
       password: document.querySelector('#password').value,
     };
 
-    // CHECK FIELDS
     for (let key in data) {
       if (!data[key]) {
         window.alert(`Please fill in the ${key} field.`);
         return;
       }
     }
-
-    // CHECK EMAIL
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(data.email)) {
       window.alert('Please enter a valid email address.');
       return;
     }
-
-    // TO LOCALSTORAGE
     localStorage.setItem('formData', JSON.stringify(data));
-
-    // ALERT
     window.alert('Registration successful! You can now sign in.');
     window.location.href = '/pages/signin.html';
   });

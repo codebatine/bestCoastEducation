@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./content/css/style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
   <script src="./script/script.js" type="module" defer></script>
   <title>Best Coast Education</title>
 </head>
@@ -12,12 +16,11 @@
 <body>
 
   <header class="header">
-    <a href="index.html">
-      <h1>Best Coast Education</h1>
-    </a>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Popular Courses</a></li>
+    <nav>
+      <a href="index.html" class="logo">Best Coast Education</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="/pages/register.html">Register</a></li>
@@ -26,11 +29,12 @@
     </nav>
   </header>
 
-  <div class="first-page-presentation">
+  <div class="courses-title">
     <h2>All Our Courses</h2>
   </div>
 
-  <div class="courses-container"></div>
+  <div class="courses-container">
+  </div>
 
   <footer class="footer">
     <p>Copyright Best Coast Education</p>
