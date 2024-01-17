@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       return;
     }
 
-    const response = await fetch('http://localhost:4000/users', {
+    const response = await fetch('http://localhost:3000/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

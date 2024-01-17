@@ -18,7 +18,6 @@ I made a 'Register' and 'Sign in' page. The information typed in 'Registration' 
 
 ## Add Courses
 
-##
+## Etc...
 
 Use http://localhost:3000/courses for data.json
-Use http://localhost:4000/users for users.json
