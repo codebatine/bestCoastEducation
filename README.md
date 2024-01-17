@@ -14,6 +14,11 @@ I created a 'Read More' button that opens up a modal popup with details about th
 
 ## Create a sign in
 
-I made a 'Register' and 'Sign in' page. The information typed in 'Registration' is stored in Local Storage and fetched from 'Sign in' if the email and password are the same.
+I made a 'Register' and 'Sign in' page. The information typed in 'Registration' is stored in users.json and fetched from 'Sign in' if the email and password are the same.
 
 ## Add Courses
+
+##
+
+Use http://localhost:3000/courses for data.json
+Use http://localhost:4000/users for users.json

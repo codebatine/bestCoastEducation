@@ -35,16 +35,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   form.appendChild(submitButton);
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    const storedData = localStorage.getItem('formData');
-    const data = JSON.parse(storedData);
+    const email = document.querySelector('#email').value;
+    const password = document.querySelector('#password').value;
 
-    if (
-      document.querySelector('#email').value === data.email &&
-      document.querySelector('#password').value === data.password
-    ) {
+    const response = await fetch('http://localhost:4000/users');
+    const users = await response.json();
+
+    const user = users.find(
+      (user) => user.email === email && user.password === password,
+    );
+
+    if (user) {
       window.alert(
         "Welcome! You're signed in and ready for some amazing courses!",
       );

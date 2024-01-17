@@ -182,7 +182,22 @@ form {
   margin-top: 8rem;
 }
 
-.button, .register-form input[type="submit"], .signin-form input[type="submit"], .add-course-button {
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  margin: 0.3125rem 0.3125rem;
+  transition: background-color 0.2s ease;
+  width: auto;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.register-form input[type="submit"], .signin-form input[type="submit"], .add-course-button, #addCourseForm button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -314,6 +329,40 @@ form {
 }
 
 .register-form input[type="text"], .register-form input[type="email"], .register-form input[type="tel"], .register-form input[type="password"], .signin-form input[type="text"], .signin-form input[type="email"], .signin-form input[type="tel"], .signin-form input[type="password"] {
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  margin-bottom: 0.9375rem;
+  font-size: 1rem;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#addCourseForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 1.25rem;
+  background-color: #f1f1f1;
+  margin-bottom: 1rem;
+}
+
+#courses {
+  width: 60%;
+}
+
+#courses div {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#addCourseForm input[type="text"], #addCourseForm input[type="email"], #addCourseForm input[type="tel"], #addCourseForm input[type="password"], #addCourseForm textarea {
   padding: 0.625rem;
   border: 0.0625rem solid #ccc;
   margin-bottom: 0.9375rem;

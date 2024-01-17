@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   form.appendChild(submitButton);
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const data = {
@@ -65,8 +65,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
       window.alert('Please enter a valid email address.');
       return;
     }
-    localStorage.setItem('formData', JSON.stringify(data));
-    window.alert('Registration successful! You can now sign in.');
-    window.location.href = '/pages/signin.html';
+
+    const response = await fetch('http://localhost:4000/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      window.alert('Registration successful! You can now sign in.');
+      window.location.href = '/pages/signin.html';
+    } else {
+      window.alert('Registration failed. Please try again.');
+    }
   });
 });
