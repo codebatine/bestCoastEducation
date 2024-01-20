@@ -132,163 +132,51 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": "13",
-      "title": "Kurs 13",
-      "duration": 6,
-      "img": "content/img/daytime-course.jpg",
-      "alt": "Course 13 Image",
-      "date": "2024-10-30",
-      "remote": true,
-      "rating": 4.2,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "14",
-      "title": "Kurs 14",
-      "duration": 3,
-      "img": "content/img/evening-course.jpg",
-      "alt": "Course 14 Image",
-      "date": "2024-11-01",
-      "remote": false,
-      "rating": 3.9,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "15",
-      "title": "Kurs 15",
-      "duration": 4,
-      "img": "content/img/daytime-course-2.jpg",
-      "alt": "Course 15 Image",
-      "date": "2024-11-05",
-      "remote": true,
-      "rating": 4.1,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "16",
-      "title": "Kurs 16",
-      "duration": 5,
-      "img": "content/img/evening-course-2.jpg",
-      "alt": "Course 16 Image",
-      "date": "2024-11-10",
-      "remote": false,
-      "rating": 3.7,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "17",
-      "title": "Kurs 17",
-      "duration": 3,
-      "img": "content/img/daytime-course.jpg",
-      "alt": "Course 17 Image",
-      "date": "2024-11-15",
-      "remote": true,
-      "rating": 4.4,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "18",
-      "title": "Kurs 18",
-      "duration": 6,
-      "img": "content/img/evening-course.jpg",
-      "alt": "Course 18 Image",
-      "date": "2024-11-20",
-      "remote": false,
-      "rating": 4.7,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "19",
-      "title": "Kurs 19",
-      "duration": 5,
-      "img": "content/img/daytime-course-2.jpg",
-      "alt": "Course 19 Image",
-      "date": "2024-11-25",
-      "remote": true,
-      "rating": 3.6,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "20",
-      "title": "Kurs 20",
-      "duration": 7,
-      "img": "content/img/evening-course-2.jpg",
-      "alt": "Course 20 Image",
-      "date": "2024-11-30",
-      "remote": false,
-      "rating": 4.3,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "21",
-      "title": "Kurs 21",
-      "duration": 8,
-      "img": "content/img/daytime-course.jpg",
-      "alt": "Course 21 Image",
-      "date": "2024-12-05",
-      "remote": true,
-      "rating": 3.9,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": "00",
-      "title": "oo",
-      "duration": "3",
+      "id": "99",
+      "title": "Testing Course",
+      "duration": "5",
       "img": "",
       "alt": "",
-      "date": "2024-01-26",
-      "remote": "",
-      "rating": "1",
-      "details": "ooö"
+      "date": "2024-01-31",
+      "remote": true,
+      "rating": "3",
+      "details": "Testing adding course, let's see if remote checkbox while checked indicates boolean true?!?!?"
+    },
+    {
+      "id": "98",
+      "title": "Testing unchecked remote box",
+      "duration": "",
+      "img": "",
+      "alt": "",
+      "date": "2024-01-31",
+      "rating": "4",
+      "details": "Let's see if unchecked remote box indicated boolean false?!?!?"
     }
   ],
   "users": [
     {
-      "id": "72b6",
-      "name": "User 1",
-      "address": "User 1",
-      "email": "user1@user.com",
+      "id": "fc71",
+      "name": "Ali",
+      "address": "Ali 1",
+      "email": "ali@ali.se",
       "phone": "123",
-      "password": "user",
-      "bookedCourses": ""
-    },
-    {
-      "id": "72b6",
-      "name": "User 2",
-      "address": "User 2",
-      "email": "user2@user.com",
-      "phone": "123",
-      "password": "user",
-      "bookedCourses": ""
-    },
-    {
-      "id": "72b6",
-      "name": "User 3",
-      "address": "User 3",
-      "email": "user3@user.com",
-      "phone": "123",
-      "password": "user",
-      "bookedCourses": ""
-    },
-    {
-      "id": "0549",
-      "name": "User User",
-      "address": "Usery 33",
-      "email": "user4@mail.com",
-      "phone": "123",
-      "password": "user",
-      "bookedCourses": ""
-    },
-    {
-      "id": "5450",
-      "name": "Hej",
-      "address": "Hej 1",
-      "email": "hej@hej.se",
-      "phone": "123",
-      "password": "hej",
+      "password": "ali",
       "bookedCourses": [
-        "2",
-        "4"
+        "3",
+        "1"
+      ]
+    },
+    {
+      "id": "f505",
+      "name": "Enver",
+      "address": "Enver 1",
+      "email": "enver@enver.se",
+      "phone": "123",
+      "password": "enver",
+      "bookedCourses": [
+        "3",
+        "8",
+        "99"
       ]
     }
   ]
