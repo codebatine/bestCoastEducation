@@ -1,7 +1,7 @@
 {
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Daytime Course in JavaScript (Beginners)",
       "duration": 5,
       "img": "content/img/daytime-course.jpg",
@@ -12,7 +12,7 @@
       "details": "Abrakadabra."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Evening Course in JavaScript (Beginners)",
       "duration": 8,
       "img": "content/img/evening-course.jpg",
@@ -23,7 +23,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Daytime Course in HTML (Beginners)",
       "duration": 3,
       "img": "content/img/daytime-course-2.jpg",
@@ -34,7 +34,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Evening Course in HTML (Beginners)",
       "duration": 4,
       "img": "content/img/evening-course-2.jpg",
@@ -45,7 +45,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Daytime Course in CSS (Beginners)",
       "duration": 6,
       "img": "content/img/daytime-course.jpg",
@@ -56,7 +56,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Evening Course in CSS (Beginners)",
       "duration": 7,
       "img": "content/img/evening-course.jpg",
@@ -67,7 +67,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Daytime Course in CSS (Advanced)",
       "duration": 9,
       "img": "content/img/daytime-course-2.jpg",
@@ -78,7 +78,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Evening Course in CSS (Advanced)",
       "duration": 5,
       "img": "content/img/evening-course-2.jpg",
@@ -89,7 +89,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Daytime Course in JavaScript (Advanced)",
       "duration": 4,
       "img": "content/img/daytime-course.jpg",
@@ -99,7 +99,7 @@
       "rating": 3.7
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Evening Course in JavaScript (Advanced)",
       "duration": 8,
       "img": "content/img/evening-course.jpg",
@@ -110,7 +110,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Daytime Course in HTML (Advanced)",
       "duration": 5,
       "img": "content/img/daytime-course-2.jpg",
@@ -121,7 +121,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Evening Course in HTML (Advanced)",
       "duration": 7,
       "img": "content/img/evening-course-2.jpg",
@@ -132,7 +132,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Kurs 13",
       "duration": 6,
       "img": "content/img/daytime-course.jpg",
@@ -143,7 +143,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Kurs 14",
       "duration": 3,
       "img": "content/img/evening-course.jpg",
@@ -154,7 +154,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Kurs 15",
       "duration": 4,
       "img": "content/img/daytime-course-2.jpg",
@@ -165,7 +165,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Kurs 16",
       "duration": 5,
       "img": "content/img/evening-course-2.jpg",
@@ -176,7 +176,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Kurs 17",
       "duration": 3,
       "img": "content/img/daytime-course.jpg",
@@ -187,7 +187,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Kurs 18",
       "duration": 6,
       "img": "content/img/evening-course.jpg",
@@ -198,7 +198,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Kurs 19",
       "duration": 5,
       "img": "content/img/daytime-course-2.jpg",
@@ -209,7 +209,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Kurs 20",
       "duration": 7,
       "img": "content/img/evening-course-2.jpg",
@@ -220,7 +220,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Kurs 21",
       "duration": 8,
       "img": "content/img/daytime-course.jpg",
@@ -249,7 +249,8 @@
       "address": "User 1",
       "email": "user1@user.com",
       "phone": "123",
-      "password": "user"
+      "password": "user",
+      "bookedCourses": ""
     },
     {
       "id": "72b6",
@@ -257,7 +258,8 @@
       "address": "User 2",
       "email": "user2@user.com",
       "phone": "123",
-      "password": "user"
+      "password": "user",
+      "bookedCourses": ""
     },
     {
       "id": "72b6",
@@ -265,7 +267,8 @@
       "address": "User 3",
       "email": "user3@user.com",
       "phone": "123",
-      "password": "user"
+      "password": "user",
+      "bookedCourses": ""
     },
     {
       "id": "0549",
@@ -273,7 +276,20 @@
       "address": "Usery 33",
       "email": "user4@mail.com",
       "phone": "123",
-      "password": "user"
+      "password": "user",
+      "bookedCourses": ""
+    },
+    {
+      "id": "5450",
+      "name": "Hej",
+      "address": "Hej 1",
+      "email": "hej@hej.se",
+      "phone": "123",
+      "password": "hej",
+      "bookedCourses": [
+        "2",
+        "4"
+      ]
     }
   ]
 }

@@ -1,3 +1,5 @@
+import { bookCourse } from './course.js';
+
 document.addEventListener('DOMContentLoaded', (event) => {
   async function fetchData(url) {
     try {
@@ -92,7 +94,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     bookButton.className = 'button';
     bookButton.textContent = 'Book Course';
     bookButton.addEventListener('click', () => {
-      alert('Booking button clicked.');
+      const userId = localStorage.getItem('userId');
+      const courseId = course.id;
+      bookCourse(userId, courseId);
     });
     courseCard.appendChild(bookButton);
 
