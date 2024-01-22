@@ -30,6 +30,10 @@ export class HttpClient {
     return this.request('POST', '', data);
   }
 
+  update(id, data) {
+    return this.request('PUT', id, data);
+  }
+
   delete(id) {
     return this.request('DELETE', id);
   }

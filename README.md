@@ -2,7 +2,9 @@
 
 ## Description
 
-A Proof-of-Conceppt application as part of a JavaSccript course. To make an application with javascript that lists courses, shows details about courses, offers register/sign in, and an application to add new courses and see what courses registered users have booked.
+A Proof-of-Conceppt application as part of a JavaSccript course. To make an application with javascript that lists courses, shows details about courses, offers register/sign in. And a second application to add, edit and delete courses. Also a display of what courses registered users have booked.
+
+![Best Coast Education](/content/img/bestCoastEducation.png)
 
 ## Installation
 

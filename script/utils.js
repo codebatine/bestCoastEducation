@@ -1,15 +1,15 @@
 export const convertFormDataToJson = (form) => {
-  const formData = new FormData(form);
   const data = {};
-
-  for (let [key, value] of formData.entries()) {
-    if (form.elements[key].type === 'checkbox') {
-      data[key] = form.elements[key].checked;
-    } else {
-      data[key] = value;
+  for (let key of form.elements) {
+    if (key.name) {
+      if (key.type === 'checkbox') {
+        data[key.name] = key.checked;
+      } else {
+        data[key.name] =
+          key.name === 'remote' ? key.value === 'true' : key.value;
+      }
     }
   }
-
   return data;
 };
 
@@ -57,8 +57,9 @@ export const createForm = (form, data, submitHandler) => {
   });
 
   const submitButton = document.createElement('button');
+  submitButton.className = 'button';
   submitButton.type = 'submit';
-  submitButton.textContent = 'Add Course';
+  submitButton.textContent = 'Submit';
   form.appendChild(submitButton);
 
   form.addEventListener('submit', submitHandler);

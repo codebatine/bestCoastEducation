@@ -304,6 +304,20 @@ form {
   background-color: #FF6A3D;
 }
 
+.edit-button {
+  background-color: #576DE9;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  margin: 0.3125rem 0.3125rem;
+  transition: background-color 0.2s ease;
+  width: auto;
+}
+.edit-button:hover {
+  background-color: #9DAAF2;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -389,6 +403,15 @@ form {
   margin-top: 2rem;
 }
 
+#editCourseForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: #f1f1f1;
+  margin-bottom: 1rem;
+}
+
 #addCourseForm {
   display: flex;
   flex-direction: column;
@@ -409,6 +432,13 @@ form {
 }
 
 #addCourseForm input[type=text], #addCourseForm input[type=email], #addCourseForm input[type=tel], #addCourseForm input[type=password], #addCourseForm textarea {
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  margin-bottom: 0.9375rem;
+  font-size: 1rem;
+}
+
+#editCourseForm input[type=text], #editCourseForm input[type=email], #editCourseForm input[type=tel], #editCourseForm input[type=password], #editCourseForm textarea {
   padding: 0.625rem;
   border: 0.0625rem solid #ccc;
   margin-bottom: 0.9375rem;

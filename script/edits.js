@@ -38,6 +38,18 @@ const initPage = async () => {
           });
       });
 
+      const editButton = document.createElement('button');
+      editButton.textContent = 'Edit';
+      editButton.className = 'edit-button';
+      editButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        // Redirect to the edit page with the course ID as a URL parameter
+        window.location.href = `edit-course.html?id=${course.id}`;
+      });
+
+      courseDiv.appendChild(editButton);
+      courseContainer.appendChild(courseDiv);
+
       courseDiv.appendChild(deleteButton);
       courseContainer.appendChild(courseDiv);
     });
