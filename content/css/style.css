@@ -139,6 +139,22 @@ footer span {
   color: #FF6A3D;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.social-media img {
+  width: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+}
+
 .courses-title {
   position: relative;
   height: 30vh;
