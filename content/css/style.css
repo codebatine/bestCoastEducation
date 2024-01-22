@@ -1,44 +1,32 @@
 body, .header, .footer {
-  font-family: "Lato", "PT Sans", "Roboto", sans-serif;
+  font-family: "Lato", "Archivo Black", "PT Sans", "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #f1f1f1;
 }
 
 body {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
 
 .header h1, .header a, .menu li a {
   font-family: "PT Sans", sans-serif;
   margin: 0;
   text-decoration: none;
+  color: #fff;
 }
 
 h2 {
   margin-bottom: 2.5rem;
-}
-
-.courses-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 7rem;
-}
-
-.courses-title h2 {
-  text-align: center;
-}
-
-.courses-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
 }
 
 .header {
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #1A2238;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -53,18 +41,17 @@ h2 {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border-left: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
 .header li a:hover, .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #475D99;
 }
 
 .header .logo {
@@ -143,6 +130,72 @@ h2 {
 
 .footer {
   margin-top: auto;
+  background-color: #1A2238;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer span {
+  color: #FF6A3D;
+}
+
+.courses-title {
+  position: relative;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.25rem;
+  background-color: #1A2238;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  overflow: hidden;
+}
+
+.courses-title h2 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.courses-title p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+p span {
+  color: #FF6A3D;
+}
+
+.anchor-edits {
+  padding: 1rem 0;
+}
+
+.anchor-edits a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em;
+  margin-top: 1em;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+  background-color: #1A2238;
+}
+
+.anchor-edits a:hover {
+  background-color: #9DAAF2;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .courses-container {
@@ -166,6 +219,10 @@ h2 {
   box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.25);
 }
 
+.course-card h2 {
+  color: #000;
+}
+
 .course-card img {
   width: 100%;
   max-height: 12.5rem;
@@ -182,7 +239,7 @@ form {
 }
 
 .button {
-  background-color: #007bff;
+  background-color: #576DE9;
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
@@ -192,11 +249,35 @@ form {
   width: auto;
 }
 .button:hover {
-  background-color: #0056b3;
+  background-color: #9DAAF2;
+}
+
+.show-all-button {
+  background-color: #FD3B00;
+  color: #fff;
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  margin: 0.3125rem 3.3125rem;
+  transition: background-color 0.2s ease;
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.show-all-button:hover {
+  background-color: #FF6A3D;
+}
+
+.register-form, .signin-form {
+  margin-top: 20vh;
 }
 
 .register-form input[type=submit], .signin-form input[type=submit], .add-course-button, #addCourseForm button {
-  background-color: #007bff;
+  background-color: #576DE9;
   color: #fff;
   border: none;
   padding: 0.5rem 0.75rem;
@@ -206,7 +287,21 @@ form {
   width: 40%;
 }
 .register-form input[type=submit]:hover, .signin-form input[type=submit]:hover, .add-course-button:hover, #addCourseForm button:hover {
-  background-color: #0056b3;
+  background-color: #9DAAF2;
+}
+
+.delete-button {
+  background-color: #FD3B00;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  margin: 0.3125rem 0.3125rem;
+  transition: background-color 0.2s ease;
+  width: auto;
+}
+.delete-button:hover {
+  background-color: #FF6A3D;
 }
 
 .modal {
@@ -219,6 +314,10 @@ form {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal h2 {
+  color: #000;
 }
 
 .modal-content {
@@ -242,61 +341,6 @@ form {
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
-}
-
-.admin-modal {
-  display: none;
-  position: fixed;
-  z-index: 99;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.admin-modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 1.25rem;
-  border: 0.0625rem solid #888;
-  width: 80%;
-  text-align: left;
-}
-
-.admin-modal img {
-  width: 100%;
-  height: auto;
-}
-
-.admin-modal-content form label {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
-
-.save-button, .delete-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 0.75rem;
-  cursor: pointer;
-  margin: 0.3125rem 0.3125rem;
-  transition: background-color 0.2s ease;
-}
-
-.admin-modal .delete-button {
-  background-color: #dc3545;
-}
-
-.admin-modal .save-button:hover {
-  background-color: #0056b3;
-}
-
-.admin-modal .delete-button:hover {
-  background-color: #c82333;
 }
 
 .close {
@@ -336,6 +380,13 @@ form {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.edit-container h2 {
+  color: #000;
+  margin-top: 2rem;
 }
 
 #addCourseForm {
@@ -364,7 +415,48 @@ form {
   font-size: 1rem;
 }
 
-@media (min-width: 48em) {
+#addCourseForm, #courses, #users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 1025px) {
+  #addCourseForm, #courses, #users {
+    width: 50vw;
+  }
+}
+#addCourseForm > div, #courses > div, #users > div {
+  flex-basis: 45%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 1025px) {
+  .course-card {
+    flex-basis: 30%;
+  }
+  .course-card img {
+    max-height: 50%;
+  }
+  .modal-content {
+    width: 45%;
+    margin: 10% auto;
+    font-size: 1.2rem;
+  }
+  .admin-modal-content {
+    width: 45%;
+    margin: 10% auto;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 48em) {
   .header li {
     float: left;
   }
@@ -380,7 +472,7 @@ form {
     display: none;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) {
   .course-card {
     flex-basis: 46%;
   }
@@ -393,18 +485,14 @@ form {
     font-size: 1rem;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .course-card {
     flex-basis: 30%;
   }
   .course-card img {
     max-height: 50%;
   }
-  .modal-content {
-    width: 45%;
-    margin: 10% auto;
-    font-size: 1.2rem;
-  }
+  .modal-content,
   .admin-modal-content {
     width: 45%;
     margin: 10% auto;

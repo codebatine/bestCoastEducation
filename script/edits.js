@@ -1,105 +1,3 @@
-// const convertFormDataToJson = (form) => {
-//   const formData = new FormData(form);
-//   const data = {};
-
-//   for (let [key, value] of formData.entries()) {
-//     if (form.elements[key].type === 'checkbox') {
-//       data[key] = form.elements[key].checked;
-//     } else {
-//       data[key] = value;
-//     }
-//   }
-
-//   return data;
-// };
-
-// class HttpClient {
-//   #url = '';
-
-//   constructor(url) {
-//     this.#url = url;
-//   }
-
-//   async request(method, id = '', data = null) {
-//     const options = {
-//       method,
-//       headers: data ? { 'Content-Type': 'application/json' } : {},
-//       body: data ? JSON.stringify(data) : null,
-//     };
-
-//     try {
-//       const response = await fetch(`${this.#url}/${id}`, options);
-//       if (!response.ok)
-//         throw new Error(`${response.status} ${response.statusText}`);
-//       return await response.json();
-//     } catch (error) {
-//       throw new Error(`An error occurred in the ${method} method: ${error}`);
-//     }
-//   }
-
-//   get(id = '') {
-//     return this.request('GET', id);
-//   }
-
-//   add(data) {
-//     return this.request('POST', '', data);
-//   }
-
-//   delete(id) {
-//     return this.request('DELETE', id);
-//   }
-// }
-
-// const courseTemplate = {
-//   id: '',
-//   title: '',
-//   duration: '',
-//   img: '',
-//   alt: '',
-//   date: '',
-//   remote: '',
-//   rating: '',
-//   details: '',
-// };
-
-// const createForm = (form, data, submitHandler) => {
-//   Object.keys(data).forEach((key) => {
-//     const label = document.createElement('label');
-//     label.textContent = key;
-//     label.htmlFor = key;
-
-//     let input;
-//     if (key === 'details') {
-//       input = document.createElement('textarea');
-//       input.textContent = data[key];
-//     } else {
-//       input = document.createElement('input');
-//       input.type = ['duration', 'rating'].includes(key)
-//         ? 'number'
-//         : key === 'date'
-//         ? 'date'
-//         : key === 'remote'
-//         ? 'checkbox'
-//         : 'text';
-//       input.value = data[key];
-//       if (key === 'remote') input.checked = data[key];
-//     }
-
-//     input.id = key;
-//     input.name = key;
-
-//     form.appendChild(label);
-//     form.appendChild(input);
-//   });
-
-//   const submitButton = document.createElement('button');
-//   submitButton.type = 'submit';
-//   submitButton.textContent = 'Add Course';
-//   form.appendChild(submitButton);
-
-//   form.addEventListener('submit', submitHandler);
-// };
-
 import { HttpClient } from './Http.js';
 import { convertFormDataToJson, courseTemplate, createForm } from './utils.js';
 
@@ -119,17 +17,21 @@ const initPage = async () => {
   if (courseContainer) {
     courses.forEach((course) => {
       const courseDiv = document.createElement('div');
-      courseDiv.textContent = course.title;
       courseDiv.style.marginBottom = '10px';
+
+      const courseTitle = document.createElement('h3');
+      courseTitle.textContent = course.title;
+      courseDiv.appendChild(courseTitle);
 
       const deleteButton = document.createElement('button');
       deleteButton.textContent = 'Delete';
+      deleteButton.className = 'delete-button';
       deleteButton.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent the click event from bubbling up to the div
+        e.stopPropagation();
         http
           .delete(course.id)
           .then(() => {
-            courseDiv.remove(); // Remove the div from the DOM
+            courseDiv.remove();
           })
           .catch((error) => {
             console.error(`Failed to delete course: ${error}`);

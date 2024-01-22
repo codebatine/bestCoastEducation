@@ -17,14 +17,13 @@
 
   <header class="header">
     <nav>
-      <a href="index.html" class="logo">Best Coast Education</a>
+      <a href="../index.html" class="logo">Best Coast Education</a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="/pages/register.html">Register</a></li>
-        <li><a href="/pages/signin.html">Sign in</a></li>
+        <li><a href="../pages/register.html">Register</a></li>
+        <li><a href="../pages/signin.html">Sign in</a></li>
+        <li><a href="../edits/index.html">Admin</a></li>
       </ul>
     </nav>
   </header>
@@ -34,16 +33,23 @@
   </div>
 
   <div class="edit-container">
+    <div class="anchor-edits">
+      <a href="#add-course">Add Course</a> |
+      <a href="#courses-section">Courses</a> |
+      <a href="#booked-courses">Booked Courses</a>
+    </div>
+    <h2 id="add-course">Add Course</h2>
     <form id="addCourseForm"></form>
+    <h2 id="courses-section">Courses</h2>
     <div id="courses"></div>
     <div class="registered-users">
-      <h2>Registered Users</h2>
+      <h2 id="booked-courses">Booked Courses</h2>
       <div id="users"></div>
     </div>
   </div>
 
   <footer class="footer">
-    <p>Copyright Best Coast Education</p>
+    <p>Copyright &copy; <span>Best Coast Education</span> 2024</p>
   </footer>
 </body>
 

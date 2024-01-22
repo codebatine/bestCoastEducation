@@ -23,6 +23,7 @@ export const courseTemplate = {
   remote: '',
   rating: '',
   details: '',
+  price: '',
 };
 
 export const createForm = (form, data, submitHandler) => {

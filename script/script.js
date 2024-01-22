@@ -12,7 +12,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 
   function processData(data) {
-    data.forEach(createCourseCard);
+    // Initially display only the first three courses
+    data.slice(0, 3).forEach(createCourseCard);
+
+    // Create "Show All Courses" button
+    const showAllButton = document.createElement('button');
+    showAllButton.className = 'show-all-button';
+    showAllButton.textContent = 'Show All Courses';
+    showAllButton.addEventListener('click', () => {
+      // When button is clicked, display the rest of the courses
+      data.slice(3).forEach(createCourseCard);
+      // Remove the "Show All Courses" button after it's clicked
+      showAllButton.remove();
+    });
+
+    // Append the "Show All Courses" button to the courses container
+    document.querySelector('.courses-container').appendChild(showAllButton);
   }
 
   fetchData('/data.json');
@@ -41,7 +56,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     const details = document.createElement('p');
     details.className = 'course-details';
-    details.textContent = `Course ID: ${course.id} | Duration: ${course.duration} days`;
+    details.textContent = `Duration: ${course.duration} days`;
     courseCard.appendChild(details);
 
     const availability = document.createElement('p');
@@ -86,6 +101,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       document.querySelector(
         '#modal-course-details',
       ).textContent = `Details: ${course.details}`;
+      document.querySelector(
+        '#modal-price',
+      ).textContent = `Price: ${course.price}`;
       modal.style.display = 'block';
     });
     courseCard.appendChild(readMoreButton);

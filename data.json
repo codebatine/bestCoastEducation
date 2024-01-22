@@ -2,47 +2,51 @@
   "courses": [
     {
       "id": "1",
-      "title": "Daytime Course in JavaScript (Beginners)",
+      "title": "Pre-Course in JavaScript (Beginners)",
       "duration": 5,
-      "img": "content/img/daytime-course.jpg",
+      "img": "content/img/javascript-pre-course.jpg",
       "alt": "Daytime Course in JavaScript.",
       "date": "2024-09-05",
       "remote": false,
       "rating": 3.5,
-      "details": "Abrakadabra."
+      "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "2",
       "title": "Evening Course in JavaScript (Beginners)",
       "duration": 8,
-      "img": "content/img/evening-course.jpg",
+      "img": "content/img/nodejs.jpg",
       "alt": "Evening Course in JavaScript.",
       "date": "2024-09-01",
       "remote": true,
       "rating": 4,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": "100 USD"
     },
     {
       "id": "3",
-      "title": "Daytime Course in HTML (Beginners)",
+      "title": "Web3 Applications (Beginners)",
       "duration": 3,
-      "img": "content/img/daytime-course-2.jpg",
-      "alt": "Daytime Course in HTML.",
+      "img": "content/img/web3.jpg",
+      "alt": "Illustration of a computer and software.",
       "date": "2024-09-10",
       "remote": true,
       "rating": 4.7,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "4",
-      "title": "Evening Course in HTML (Beginners)",
+      "title": "Start Coding Solidity (Beginners)",
       "duration": 4,
-      "img": "content/img/evening-course-2.jpg",
+      "img": "content/img/solidity.jpg",
       "alt": "Evening Course in HTML.",
       "date": "2024-09-15",
       "remote": false,
       "rating": 4.2,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "100 USD"
     },
     {
       "id": "5",
@@ -53,7 +57,8 @@
       "date": "2024-09-20",
       "remote": true,
       "rating": 3.9,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "6",
@@ -64,18 +69,20 @@
       "date": "2024-09-25",
       "remote": false,
       "rating": 4.5,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "7",
       "title": "Daytime Course in CSS (Advanced)",
       "duration": 9,
-      "img": "content/img/daytime-course-2.jpg",
+      "img": "content/img/typescript.jpg",
       "alt": "Course 7 Image",
       "date": "2024-09-30",
       "remote": true,
       "rating": 4.8,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "8",
@@ -86,7 +93,8 @@
       "date": "2024-10-05",
       "remote": false,
       "rating": 4.3,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "100 USD"
     },
     {
       "id": "9",
@@ -96,18 +104,21 @@
       "alt": "Course 9 Image",
       "date": "2024-10-10",
       "remote": true,
-      "rating": 3.7
+      "rating": 3.7,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": "100 USD"
     },
     {
       "id": "10",
       "title": "Evening Course in JavaScript (Advanced)",
       "duration": 8,
-      "img": "content/img/evening-course.jpg",
+      "img": "content/img/react.jpg",
       "alt": "Course 10 Image",
       "date": "2024-10-15",
       "remote": false,
       "rating": 4.5,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": "100 USD"
     },
     {
       "id": "11",
@@ -118,7 +129,8 @@
       "date": "2024-10-20",
       "remote": true,
       "rating": 3.8,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "12",
@@ -129,54 +141,55 @@
       "date": "2024-10-25",
       "remote": false,
       "rating": 4.6,
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "100 USD"
     },
     {
       "id": "99",
-      "title": "Testing Course",
-      "duration": "5",
-      "img": "",
-      "alt": "",
+      "title": "Test Course Remote",
+      "duration": "3",
+      "img": "../content/img/daytime-course-2.jpg",
+      "alt": "Illustration of coding studies.",
       "date": "2024-01-31",
       "remote": true,
-      "rating": "3",
-      "details": "Testing adding course, let's see if remote checkbox while checked indicates boolean true?!?!?"
+      "rating": "5",
+      "details": "Test to add a remote course.",
+      "price": "100 USD"
     },
     {
       "id": "98",
-      "title": "Testing unchecked remote box",
-      "duration": "",
-      "img": "",
-      "alt": "",
+      "title": "Testing a Non-Remote Course",
+      "duration": "3",
+      "img": "content/img/daytime-course.jpg",
+      "alt": "Illustration of coding studies.",
       "date": "2024-01-31",
       "rating": "4",
-      "details": "Let's see if unchecked remote box indicated boolean false?!?!?"
+      "details": "Testing to add a non-remote course.",
+      "price": "100 USD"
+    },
+    {
+      "id": "97",
+      "title": "Node JS Evening Course",
+      "duration": "7",
+      "img": "../content/img/nodejs.jpg",
+      "alt": "Node js logo.",
+      "date": "2024-01-31",
+      "remote": true,
+      "rating": "3",
+      "details": "Testing to add another course.",
+      "price": "100 USD"
     }
   ],
   "users": [
     {
-      "id": "fc71",
-      "name": "Ali",
-      "address": "Ali 1",
-      "email": "ali@ali.se",
-      "phone": "123",
-      "password": "ali",
+      "id": "1734",
+      "name": "Tim Buckley",
+      "address": "Phantasmagoria in 2",
+      "email": "tim@buckley.com",
+      "phone": "123 456 789",
+      "password": "tim",
       "bookedCourses": [
-        "3",
         "1"
-      ]
-    },
-    {
-      "id": "f505",
-      "name": "Enver",
-      "address": "Enver 1",
-      "email": "enver@enver.se",
-      "phone": "123",
-      "password": "enver",
-      "bookedCourses": [
-        "3",
-        "8",
-        "99"
       ]
     }
   ]

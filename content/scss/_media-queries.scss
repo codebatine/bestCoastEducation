@@ -1,0 +1,54 @@
+@media only screen and (min-width: 48em) {
+  .header {
+    li {
+      float: left;
+
+      a {
+        padding: 20px 30px;
+      }
+    }
+
+    .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .course-card {
+    flex-basis: 46%;
+
+    img {
+      max-height: 50%;
+    }
+  }
+
+  .modal-content {
+    width: 70%;
+    margin: 15% auto;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .course-card {
+    flex-basis: 30%;
+
+    img {
+      max-height: 50%;
+    }
+  }
+
+  .modal-content,
+  .admin-modal-content {
+    width: 45%;
+    margin: 10% auto;
+    font-size: 1.2rem;
+  }
+}
