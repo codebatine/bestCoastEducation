@@ -2,22 +2,17 @@
 
 ## Description
 
-A Proof-of-Conceppt application as part of a JavaSccript course. To make an application with javascript that lists courses, shows details about courses, offers register/sign in and an application to add new courses.
+A Proof-of-Conceppt application as part of a JavaSccript course. To make an application with javascript that lists courses, shows details about courses, offers register/sign in, and an application to add new courses and see what courses registered users have booked.
 
-## Present courses
+## Installation
 
-I did this with a data.json that is dynamically created with javascript.
+Clone the bestCoastEducation repo:
+git clone https://github.com/codebatine/bestCoastEducation.git
 
-## Make a details-page of the courses
+## Install the dependencies:
 
-I created a 'Read More' button that opens up a modal popup with details about that specific course.
+npm install
 
-## Create a sign in
+## Start the application:
 
-I made a 'Register' and 'Sign in' page. The information typed in 'Registration' is stored in users.json and fetched from 'Sign in' if the email and password are the same.
-
-## Add Courses
-
-## Etc...
-
-Use http://localhost:3000/courses for data.json
+npx json-server --watch data.json
