@@ -2,7 +2,7 @@
 
 ## Description
 
-A Proof-of-Conceppt application as part of a JavaSccript course. To make an application with javascript that lists courses, shows details about courses, offers register/sign in. And a second application to add, edit and delete courses. Also a display of what courses registered users have booked.
+A Proof-of-Conceppt application as part of a JavaSccript and Typescript course. To make an application that lists courses, shows details about courses, offers register/sign in. And a second application to add, edit and delete courses. Also a display of what courses registered users have booked.
 
 ![Best Coast Education](/content/img/bestCoastEducation.png)
 
@@ -11,10 +11,28 @@ A Proof-of-Conceppt application as part of a JavaSccript course. To make an appl
 Clone the bestCoastEducation repo:
 git clone https://github.com/codebatine/bestCoastEducation.git
 
-## Install the dependencies:
+## Install json server:
 
 npm install
 
-## Start the application:
+## Start json server:
 
-npx json-server --watch data.json
+`npx json-server --watch data.json`
+
+## Install typescript
+
+`npm install --save-dev typescript`
+
+## Run typescript
+
+`npx tsc --init`
+
+add this to package.json
+
+```
+"scripts": {
+  "tsc": "tsc"
+}
+```
+
+`npm run tsc`
