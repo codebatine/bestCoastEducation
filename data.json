@@ -190,6 +190,30 @@
       "bookedCourses": [
         "1"
       ]
+    },
+    {
+      "id": "1903",
+      "name": "Gowan Ring",
+      "address": "Gowan 1",
+      "email": "gowan@gowan.com",
+      "phone": "123 456 789",
+      "password": "gowan",
+      "bookedCourses": [
+        "Test typescript add course",
+        "3"
+      ]
+    },
+    {
+      "id": "1358",
+      "name": "Rex Holman",
+      "address": "Rex 1",
+      "email": "rex@rex.com",
+      "phone": "123 456 789",
+      "password": "rex",
+      "bookedCourses": [
+        "7",
+        "6"
+      ]
     }
   ]
 }
