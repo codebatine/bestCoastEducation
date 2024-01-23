@@ -81,7 +81,7 @@ const displayUsers = async () => {
       const userDiv = document.createElement('div');
       userDiv.textContent = `${user.name}: `;
 
-      if (user.bookedCourses.length > 0) {
+      if (user.bookedCourses && user.bookedCourses.length) {
         let coursesText = '';
         for (let i = 0; i < user.bookedCourses.length; i++) {
           const course: Course = await httpCourses.get(user.bookedCourses[i]);

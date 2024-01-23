@@ -78,16 +78,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const user = await response.json();
       localStorage.setItem('userId', user.id);
       window.alert('Registration successful! You can now sign in.');
-      window.location.href = '/pages/signin.html';
+      window.location.href = '../pages/signin.html';
     } else {
       window.alert('Registration failed. Please try again.');
     }
-
-    // if (response.ok) {
-    //   window.alert('Registration successful! You can now sign in.');
-    //   window.location.href = '/pages/signin.html';
-    // } else {
-    //   window.alert('Registration failed. Please try again.');
-    // }
   });
 });
