@@ -1,14 +1,14 @@
 export class HttpClient {
-  #url = '';
+  #url: string;
 
-  constructor(url) {
+  constructor(url: string) {
     this.#url = url;
   }
 
-  async request(method, id = '', data = null) {
-    const options = {
+  async request(method: string, id: string = '', data: any = null): Promise<any> {
+    const options: RequestInit = {
       method,
-      headers: data ? { 'Content-Type': 'application/json' } : {},
+      headers: { 'Content-Type': 'application/json' },
       body: data ? JSON.stringify(data) : null,
     };
 
@@ -22,19 +22,19 @@ export class HttpClient {
     }
   }
 
-  get(id = '') {
+  get(id: string = ''): Promise<any> {
     return this.request('GET', id);
   }
 
-  add(data) {
+  add(data: any): Promise<any> {
     return this.request('POST', '', data);
   }
 
-  update(id, data) {
+  update(id: string, data: any): Promise<any> {
     return this.request('PUT', id, data);
   }
 
-  delete(id) {
+  delete(id: string): Promise<any> {
     return this.request('DELETE', id);
   }
 }

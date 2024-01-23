@@ -1,9 +1,9 @@
 import { HttpClient } from './Http.js';
 import { convertFormDataToJson, courseTemplate, createForm } from './utils.js';
 
-const saveEditedCourse = async (e) => {
+const saveEditedCourse = async (e: Event) => {
   e.preventDefault();
-  const course = convertFormDataToJson(e.target);
+  const course = convertFormDataToJson((e.target as HTMLFormElement));
   const http = new HttpClient('http://localhost:3000/courses');
   await http.update(course.id, course);
   location.reload();
@@ -14,7 +14,7 @@ const initEditPage = async () => {
   const courseId = urlParams.get('id');
 
   const http = new HttpClient('http://localhost:3000/courses');
-  const course = await http.get(courseId);
+  const course = await http.get(courseId as string);
 
   const editContainer = document.querySelector('.edit-container');
   if (editContainer) {
@@ -33,7 +33,7 @@ const initEditPage = async () => {
     editContainer.appendChild(newDiv);
 
     // Use the createForm function to create the form fields and attach the submit event listener
-    createForm(editForm, course, saveEditedCourse, 'Update Course');
+    createForm(editForm, course, saveEditedCourse);
   }
 };
 
