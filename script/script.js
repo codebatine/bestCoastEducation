@@ -12,21 +12,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 
   function processData(data) {
-    // Initially display only the first three courses
     data.slice(0, 3).forEach(createCourseCard);
 
-    // Create "Show All Courses" button
     const showAllButton = document.createElement('button');
     showAllButton.className = 'show-all-button';
     showAllButton.textContent = 'Show All Courses';
     showAllButton.addEventListener('click', () => {
-      // When button is clicked, display the rest of the courses
       data.slice(3).forEach(createCourseCard);
-      // Remove the "Show All Courses" button after it's clicked
+
       showAllButton.remove();
     });
 
-    // Append the "Show All Courses" button to the courses container
     document.querySelector('.courses-container').appendChild(showAllButton);
   }
 

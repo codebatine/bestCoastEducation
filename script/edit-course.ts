@@ -18,21 +18,17 @@ const initEditPage = async () => {
 
   const editContainer = document.querySelector('.edit-container');
   if (editContainer) {
-    // Create a new div
+
     const newDiv = document.createElement('div');
     newDiv.id = 'edit-course-form';
 
-    // Create a new form
     const editForm = document.createElement('form');
     editForm.id = 'editCourseForm';
 
-    // Add the form to the new div
     newDiv.appendChild(editForm);
 
-    // Add the new div to the edit container
     editContainer.appendChild(newDiv);
 
-    // Use the createForm function to create the form fields and attach the submit event listener
     createForm(editForm, course, saveEditedCourse);
   }
 };

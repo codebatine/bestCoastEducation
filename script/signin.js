@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       window.alert(
         "Welcome! You're signed in and ready for some amazing courses!",
       );
-      window.location.href = '../index.html'; // Redirect to index.html
+      window.location.href = '../index.html';
     } else {
       console.log('Invalid email or password');
     }
