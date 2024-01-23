@@ -13,7 +13,7 @@ git clone https://github.com/codebatine/bestCoastEducation.git
 
 ## Install json server:
 
-npm install
+```npm install``````
 
 ## Start json server:
 
@@ -27,7 +27,7 @@ npm install
 
 `npx tsc --init`
 
-add this to package.json
+:point_down: add this to package.json :point_down:
 
 ```
 "scripts": {
