@@ -53,7 +53,6 @@ const initPage = async () => {
       editButton.className = 'edit-button';
       editButton.addEventListener('click', (e: Event) => {
         e.stopPropagation();
-        // Redirect to the edit page with the course ID as a URL parameter
         window.location.href = `edit-course.html?id=${course.id}`;
       });
 

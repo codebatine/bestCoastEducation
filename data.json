@@ -215,6 +215,17 @@
       "bookedCourses": [
         "9"
       ]
+    },
+    {
+      "id": "b94a",
+      "name": "Olof",
+      "address": "Olof 1",
+      "email": "olof@olof.se",
+      "phone": "123 456 789",
+      "password": "testsite",
+      "bookedCourses": [
+        "2"
+      ]
     }
   ]
 }
